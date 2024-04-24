@@ -22,13 +22,13 @@ function play()
 
   if(guess > result)
     {
-        msg1.textcontent=" given num is low:" + guess;
+        msg1.textcontent=" given num is high";
         msg2.textcontent=" NO OF GUESSES:"+no_of_guess;
         msg3.textcontent=" GUESSED NO ARE: "+ guessed_num;
     }
    else if(guess < result)
     {
-        msg1.textcontent=" given num is high"+ guess;
+        msg1.textcontent=" given num is low" ;
         msg2.textcontent=" NO OF GUESSES:"+no_of_guess;
         msg3.textcontent=" GUESSED NO ARE: "+ guessed_num;
     }
